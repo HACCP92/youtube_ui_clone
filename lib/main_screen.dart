@@ -153,7 +153,7 @@ class _MainScreenState extends State<MainScreen> {
                 mainImg:
                     'https://postfiles.pstatic.net/MjAyMzA2MjFfMzIg/MDAxNjg3Mjk2MzkwMzg4.GVnl3ExA64cqbhcO2x8z5o168PY9Mnb44tpB3Gl7lp4g.zmbQdw-dn2fT-YkS4WVfcI7WtKvBRABqsRtCyDXdiSsg.JPEG.cjh6173/%EB%8B%A8%EC%B2%B4%EC%82%AC%EC%A7%84.jpg?type=w580',
                 title: '새싹캠퍼스 - 새싹페스티벌에 다녀왔습니다',
-                name: 'flutter 5기',
+                name: 'flutter 5기 • 100만 • 3시간전',
                 views: '100만',
                 uploadig: '3시간',
               ),
@@ -353,7 +353,7 @@ class VideoImg extends StatelessWidget {
                         fontSize: 12,
                       ),
                     ),
-                    const SizedBox(width: 4.0),
+                    const SizedBox(width: 5.0),
                     const Text(
                       '•',
                       style: TextStyle(
@@ -407,7 +407,7 @@ class Shorts extends StatelessWidget {
             fit: BoxFit.cover, //
           ),
         ),
-        const SizedBox(height: 1),
+        const SizedBox(height: 5),
         Text(
           shortsName,
           style: const TextStyle(
@@ -416,7 +416,7 @@ class Shorts extends StatelessWidget {
             fontSize: 5,
           ),
         ),
-        const SizedBox(height: 5),
+        const SizedBox(),
         Text(
           shortsViews,
           style: const TextStyle(color: Colors.white),
