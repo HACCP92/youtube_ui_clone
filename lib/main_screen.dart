@@ -214,7 +214,8 @@ class _MainScreenState extends State<MainScreen> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.black, //블랙이 먹지 않는 이유는 뭘까...
+        backgroundColor:
+            Colors.black, //블랙이 먹지 않는 이유는 뭘까... 정호님이 타입 넣어주면 된다고 하셨다. 성공!
         items: const [
           BottomNavigationBarItem(
             icon: Icon(
