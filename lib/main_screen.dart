@@ -213,40 +213,41 @@ class _MainScreenState extends State<MainScreen> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.black, //블랙이 먹지 않는 이유는 뭘까...
         items: const [
           BottomNavigationBarItem(
             icon: Icon(
               Icons.home,
-              color: Colors.black,
+              color: Colors.white,
             ),
             label: '홈',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.egg_alt_outlined,
-              color: Colors.black,
+              color: Colors.white,
             ),
             label: 'Shorts',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.add_circle_outline,
-              color: Colors.black,
+              color: Colors.white,
             ),
             label: '1',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.subscriptions_outlined,
-              color: Colors.black,
+              color: Colors.white,
             ),
             label: '구독',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.video_library_outlined,
-              color: Colors.black,
+              color: Colors.white,
             ),
             label: '보관함',
           ),
