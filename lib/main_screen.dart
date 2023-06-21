@@ -399,11 +399,11 @@ class Shorts extends StatelessWidget {
     return Column(
       children: [
         SizedBox(
-          width: 100, // 원하는 이미지 가로 크기로 조정
-          height: 200, // 원하는 이미지 세로 크기로 조정
+          width: 150, //
+          height: 250, //
           child: Image.network(
             shortsImage,
-            fit: BoxFit.cover, // 이미지를 적절히 조절하여 보여줍니다
+            fit: BoxFit.cover, //
           ),
         ),
         const SizedBox(height: 1),
